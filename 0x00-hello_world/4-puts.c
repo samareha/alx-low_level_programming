@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- *
+ * Discription: A C programme that uses
  * Return: Always 0 (Success)
  */
 int main(void)
