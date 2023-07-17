@@ -7,12 +7,13 @@
  *Return: 0 (success)
 */
 int main(void)
-	char x = 'a';
-
-	while (x <= 'z')
 {
-	putchar(x);
-	x++;
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
+	{
+		putchar(alphabet);
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
