@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
@@ -9,13 +8,12 @@
 */
 int main(void)
 {
-	int x = 48; /*48; decimal rep of 0*/
+	int x = 48;
 
-	while (x <= 102) /*102; decimal rep of f*/
+	while (x <= 102)
 	{
 		putchar(x);
 
-		/* after 9 we jump till 96; */
 		if (x == 57)
 			x += 39;
 		x++
