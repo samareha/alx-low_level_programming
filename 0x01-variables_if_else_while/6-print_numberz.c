@@ -15,7 +15,7 @@ int main(void)
 	while (n <= 0)
 	{
 		/*convert digit to ASCII representation*/
-		putchar("%i" + '0', n);
+		putchar(n + '0');
 		n++;
 	}
 	putchar('\n');
