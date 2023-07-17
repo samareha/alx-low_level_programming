@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	int digit = 0;
+	int n = 0;
 
-	while (digit <= 0)
+	while (n <= 0)
 	{
 		/*convert digit to ASCII representation*/
-		putchar(digit + '0');
-		digit++;
+		putchar("%i" + '0', n);
+		n++;
 	}
 	putchar('\n');
 
