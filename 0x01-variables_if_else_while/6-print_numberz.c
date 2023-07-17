@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	int n = 0;
+        int n = 0;
 
-	while (n <= 0)
-	{
-		/*convert digit to ASCII representation*/
-		putchar(n + '0');
-		n++;
-	}
-	putchar('\n');
+        while (n <= 0)
+        {
+                /*convert digit to ASCII representation*/
+                putchar(n + '0');
+                n++;
+        }
+        putchar('\n');
 
-	return (0);
-}
+return (0);
+}  
