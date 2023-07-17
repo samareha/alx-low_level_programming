@@ -8,20 +8,20 @@
 */
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+	char alphapet = 'a';
+	char ALPHAPET = 'A';
 
 	/*print a - z*/
-	while (ch <= 'z')
+	while (alphapet <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(alphapet);
+		alphapet++;
 	}
 	/*print A- Z*/
-	while (CH <= 'Z')
+	while (ALPHAPET <= 'Z')
 	{
-		putchar(CH);
-		CH++;
+		putchar(ALPHAPET);
+		ALPHAPET++;
 	}
 	putchar('\n')
 
