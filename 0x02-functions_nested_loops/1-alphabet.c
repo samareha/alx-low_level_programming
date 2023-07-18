@@ -5,7 +5,7 @@
  *
  * return: always 0 (success)
 */
-
+int _putchar(char c);
 void print_alphabet(void);
 {
 
