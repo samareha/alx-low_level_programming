@@ -13,5 +13,5 @@ void _puts(char *str)
 			write(STDOUT_FILENO, str, 1);
 			str++;
 		}
-	write('\n', 1);
+	write('\n');
 }
