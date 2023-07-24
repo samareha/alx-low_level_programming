@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
  * _puts - check the code
@@ -10,8 +9,8 @@ void _puts(char *str)
 {
 	while (*str != '\0')
 		{
-			write(STDOUT_FILENO, str, 1);
+			printf(STDOUT_FILENO, str, 1);
 			str++;
 		}
-	write('\n');
+	printf('\n');
 }
