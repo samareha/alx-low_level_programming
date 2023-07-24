@@ -5,14 +5,9 @@
  * swap_int - check the code
  * @a: integer
  * @b: integar
- * @x: integar
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
 {
-	int temp;
-
-	temp = *a;
 	*a = *b;
-	*b = temp;
 }
