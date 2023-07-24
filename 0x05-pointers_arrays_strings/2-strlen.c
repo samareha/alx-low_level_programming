@@ -9,12 +9,10 @@
 */
 int _strlen(char *s)
 {
-	int lon = 0;
+	int counter;
 
-	while (*S != '\0')
-	{
-		lon++;
-		*S++;
-	}
-	return (lon);
+	for (counter = 0; *s != '\0'; s++)
+		counter++;
+
+	return (counter);
 }
