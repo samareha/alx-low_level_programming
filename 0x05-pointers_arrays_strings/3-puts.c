@@ -9,8 +9,7 @@ void _puts(char *str)
 {
 	while (*str != '\0')
 		{
-			printf(STDOUT_FILENO, str, 1);
-			str++;
+			_putchar(*str++);
 		}
-	printf('\n');
+	_putchar('\n');
 }
